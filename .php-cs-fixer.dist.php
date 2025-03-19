@@ -12,3 +12,4 @@ return (new PhpCsFixer\Config())
     ->setRules($config)
     ->setRiskyAllowed(true)
     ->setCacheFile(__DIR__ . '/.php-cs-fixer.cache');
+    ->exclude('tests');
